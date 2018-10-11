@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+@font-face {
+  font-family: 'Avenir Light', sans-serif;
+  src: url('fonts/Avenir-Light.ttf');
+}
+
 body {
-  overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .navbar-default {
@@ -12,6 +21,10 @@ border-color: transparent;
 -moz-transition: all 0.35s;
 transition: all 0.35s;
 padding: 5px;
+}
+
+.navbar-brand {
+  font-family: 'Avenir Light', sans-serif;
 }
 
 .navbar a {
@@ -48,6 +61,10 @@ padding: 5px;
   font-size: 56px;
   padding-top: 45vh;
   text-align: center;
+}
+
+.header-text h1 {
+  font-family: 'Avenir Light', sans-serif;
 }
 
 .row {

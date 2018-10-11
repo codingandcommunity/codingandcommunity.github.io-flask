@@ -35,8 +35,10 @@
 -->
 <div class="header">
   <div class="header-text">
-    <h1>{coding&&community}</h1>
-    <h2>Why not change your community?</h2>
+    <div class="container">
+      <h1>{coding&&community}</h1>
+      <h2>Why not change your community?</h2>
+    </div>
   </div>
 </div>
 
@@ -47,6 +49,7 @@
   </div>
 </div>
 
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-4 stat-col ratio-div">
       <h2 class="stat"><i class="fas fa-chalkboard-teacher"></i><br>{{ landing_stats_ratio }}</h2>
@@ -64,5 +67,6 @@
       <h4 class="stat-desc">{{ landing_events_desc }}</h4>
     </div>
   </div>
+</div>
 
 {% endblock %}
