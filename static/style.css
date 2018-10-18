@@ -7,11 +7,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-}
-
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
+  position: relative;
 }
 
 .navbar-default {
@@ -36,7 +32,20 @@ padding: 5px;
   transition: background-color 200ms linear;
 }
 
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+    .navbar-brand.scrolled {
+      display: inline;
+    }
+}
+
 .navbar-fixed-top.scrolled .nav-link {
+  color: #FFF;
+}
+
+.navbar-toggle {
   color: #FFF;
 }
 
@@ -48,23 +57,27 @@ padding: 5px;
   font-size: 18px;
 }
 
-.header {
-  margin-top: -20px;
-  height: 100vh;
-  background-image: url("images/im1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.carousel {
+  margin-top: -20%;
 }
+
+.carousel-control {
+  margin-top: 10%;
+}
+
 
 .header-text {
   color: #FFF;
-  font-size: 56px;
-  padding-top: 45vh;
-  text-align: center;
+  transform: translate(0, -280%);
 }
 
 .header-text h1 {
   font-family: 'Avenir Light', sans-serif;
+  font-size: 6vw;
+}
+
+.header-text h2 {
+  font-size: 3vw;
 }
 
 .row {
