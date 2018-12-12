@@ -42,7 +42,7 @@
   <div class="row">
     <div class="col-md-6">
       <h1>Our Mission</h1>
-      <p class="mission-statement">{{ landing_mission_statement }}</p>
+      <p class="mission-statement">{{ data["mission_statement"] }}</p>
     </div>
     <div class="col-md-6">
       <div class="embed-responsive embed-responsive-16by9">
@@ -55,19 +55,19 @@
 <div class="container-fluid">
   <div class="row stat-row">
     <div class="col-md-4 stat-col ratio-div">
-      <h2 class="stat"><i class="fas fa-chalkboard-teacher"></i><br>{{ landing_stats_ratio }}</h2>
+      <h2 class="stat"><i class="fas fa-chalkboard-teacher"></i><br>{{ data["statistics"]["ratio"]["value"] }}</h2>
       <h2 class="stat-desc">Instructor : Student Ratio</h2>
-      <h4 class="stat-desc">{{ landing_ratio_desc }}</h4>
+      <h4 class="stat-desc">{{ data["statistics"]["ratio"]["description"] }}</h4>
     </div>
     <div class="col-md-4 stat-col students-div">
-      <h2 class="stat"><i class="fas fa-user-graduate"></i><br>{{ landing_stats_studentstaught }}</h2>
+      <h2 class="stat"><i class="fas fa-user-graduate"></i><br>{{ data["statistics"]["students_taught"]["value"] }}</h2>
       <h2 class="stat-desc">Total Students Taught</h2>
-      <h4 class="stat-desc">{{ landing_studentstaught_desc }}</h4>
+      <h4 class="stat-desc">{{ data["statistics"]["students_taught"]["description"] }}</h4>
     </div>
     <div class="col-md-4 stat-col events-div">
-      <h2 class="stat"><i class="fas fa-calendar"></i><br>{{ landing_stats_events }}</h2>
+      <h2 class="stat"><i class="fas fa-calendar"></i><br>{{ data["statistics"]["events"]["value"] }}</h2>
       <h2 class="stat-desc">Events</h2>
-      <h4 class="stat-desc">{{ landing_events_desc }}</h4>
+      <h4 class="stat-desc">{{ data["statistics"]["events"]["description"] }}</h4>
     </div>
   </div>
 </div>
