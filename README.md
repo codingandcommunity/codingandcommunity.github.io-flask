@@ -1,2 +1,2 @@
 # codingandcommunity.github.io-flask
-New website @ https://codingandcommunity.github.io
+Repository for the Flask version of https://codingandcommunity.github.io
