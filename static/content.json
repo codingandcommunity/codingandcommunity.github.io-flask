@@ -1,0 +1,20 @@
+{
+  "landing_page": {
+    "mission_statement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus magna at magna auctor hendrerit. Sed a turpis auctor, egestas justo et, volutpat massa. Sed eu finibus odio. In non vestibulum velit. Vivamus a imperdiet leo, in finibus tellus. Morbi accumsan tellus lectus, sed egestas lectus efficitur iaculis. Nullam efficitur vestibulum maximus. Ut imperdiet semper sapien, sed sodales magna sagittis nec. Praesent luctus mauris nunc, quis ultrices odio sollicitudin at. Vestibulum fermentum sem ex, eu cursus leo sodales id.",
+    "statistics": {
+      "ratio": {
+        "value": "1:1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus magna at magna auctor hendrerit. Sed a turpis auctor, egestas justo et, volutpat massa. Sed eu finibus odio. In non vestibulum velit. Vivamus a imperdiet leo, in finibus tellus. Morbi accumsan tellus."
+      },
+      "students_taught": {
+        "value": "50",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus magna at magna auctor hendrerit. Sed a turpis auctor, egestas justo et, volutpat massa. Sed eu finibus odio. In non vestibulum velit. Vivamus a imperdiet leo, in finibus tellus. Morbi accumsan tellus."
+      },
+      "events": {
+        "value": "11",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus magna at magna auctor hendrerit. Sed a turpis auctor, egestas justo et, volutpat massa. Sed eu finibus odio. In non vestibulum velit. Vivamus a imperdiet leo, in finibus tellus. Morbi accumsan tellus."
+      }
+    }
+  },
+  "about_page": {}
+}
