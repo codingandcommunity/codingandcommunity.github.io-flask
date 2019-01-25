@@ -133,7 +133,7 @@ h1 {
 }
 
 .ratio-div {
-  background-color: #EF6840;
+  background-color: #FF6922;
 }
 
 .ratio-div .stat {
@@ -141,7 +141,7 @@ h1 {
 }
 
 .students-div {
-  background-color: #51D2D9;
+  background-color: #43D2E8;
 }
 
 .students-div .stat {
@@ -154,5 +154,5 @@ h1 {
 
 .events-div .stat {
   background-color: #FFF;
-  color: #1FA7FF;
+  color: #18B1FF;
 }
